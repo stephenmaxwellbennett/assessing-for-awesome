@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <script src="jquery.js"></script>
+  <script src="bootstrap.js"></script>
+  <script src="lazyload.js"></script>
+  <title>SMB: Assessing for Awesome</title>
+</head>
+
+<section id="one">
+    <img id="smb" class="d-block mx-auto" src="images/hello.png"
+      onmouseover="this.src='images/hello.gif';"
+      onmouseout="this.src='images/hello.png';">
+    <div class="col-12">
+      <h2 id="hello" class="text-secondary"><em>hello!</em></h2>
+      <h1>Stephen Maxwell Bennett</h1>
+      <h2>Assessing for Awesome</h2>
+      <div class="modal" tabindex="-1" role="dialog" style="display: none ;">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body modal-code">
+              <textarea readonly>
+
+<img id="smb" class="d-block lazy mx-auto" src="images/hello.png" 
+onmouseover="this.src='images/hello.gif';" 
+onmouseout="this.src='images/hello.png';">
+
+<div class="col-12">
+  <h2 id="hello" class="text-secondary"><em>hello!</em></h2>
+  <h1>Stephen Maxwell Bennett</h1>
+  <h2>Assessing for Awesome</h2>
+</div>
+
+<script>
+jQuery('html').keyup(function(e){
+  var hash_link = location.hash;
+  var myId = jQuery("html").find("section").attr('id');
+  var section_Id = "#" +myId;
+
+  if (e.keyCode == 32 && hash_link == section_Id){
+    e.preventDefault();
+    jQuery(this).find(".modal").toggle();
+  } else if (e.which == 37 || e.which == 39) {
+      jQuery(this).find(".modal").hide();
+    } else if (e.which == 38 || e.which == 40) {
+      jQuery(this).find(".modal").hide();
+    }
+  });
+</script>
+              </textarea> 
+            </div>
+        </div>
+      </div>
+    </div>  
+</section>
+
+<section id="two">
+  <!-- This is the second slide -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>About Me</h3>
+      </div>
+      <div class="col-4 about-me">
+        <a href="#3.0"><img class="svg d-block lazy" data-src="images/camera-retro-solid.svg"></a>
+        <p>What is one of my <br>favorite hobbies?</p>
+      </div>
+      <div class="col-4 about-me">
+        <a href="#4.0"><img class="svg d-block lazy" data-src="images/graduation-cap-solid.svg"></a>
+        <p>Which university <br>did I attend?</p>
+      </div> 
+      <div class="col-4 about-me">
+        <a href="#5.0"><img class="svg d-block lazy" data-src="images/youtube-brands.svg"></a>
+        <p>What project am I <br>most proud of?</p>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-4 about-me">
+        <a href="#6.0"><img class="svg d-block lazy" data-src="images/grin-hearts-regular.svg"></a>
+        <p>Who is my <br>best friend?</p>
+      </div> 
+      <div class="col-4 about-me">
+        <a href="#7.0"><img class="svg d-block lazy" data-src="images/cloud-sun-solid.svg"></a>
+        <p>What is a bright <br>spot in 2020?</p>
+      </div> 
+      <div class="col-4 about-me">
+        <a href="#8.0"><img class="svg d-block lazy" data-src="images/magic-solid.svg"></a>
+        <p>What's my favorite <br>book series?</p>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section id="three" class="lazy" style="background-size: cover;" data-bg-multi="url(images/timelapses.gif), url(images/summer-came-early.jpg), url(images/busy-bee.jpg), url(images/bixby-bridge.jpg)">
+  <h3 class="start text-white">
+    <a href="#2.0">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="camera-retro" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-camera-retro fa-w-16 fa-3x"><path fill="currentColor" d="M48 32C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48H48zm0 32h106c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H38c-3.3 0-6-2.7-6-6V80c0-8.8 7.2-16 16-16zm426 96H38c-3.3 0-6-2.7-6-6v-36c0-3.3 2.7-6 6-6h138l30.2-45.3c1.1-1.7 3-2.7 5-2.7H464c8.8 0 16 7.2 16 16v74c0 3.3-2.7 6-6 6zM256 424c-66.2 0-120-53.8-120-120s53.8-120 120-120 120 53.8 120 120-53.8 120-120 120zm0-208c-48.5 0-88 39.5-88 88s39.5 88 88 88 88-39.5 88-88-39.5-88-88-88zm-48 104c-8.8 0-16-7.2-16-16 0-35.3 28.7-64 64-64 8.8 0 16 7.2 16 16s-7.2 16-16 16c-17.6 0-32 14.4-32 32 0 8.8-7.2 16-16 16z" class=""></path></svg>
+  </a> <a class="photography">Photography</a></h3>
+  <div class="social-icons">
+    <ul class="social-list-inline">
+      <li class="hex">
+        <a class="beach">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="umbrella-beach" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-umbrella-beach fa-w-20 fa-3x"><path fill="currentColor" d="M115.38 136.9l102.11 37.18c35.19-81.54 86.21-144.29 139-173.7-95.88-4.89-188.78 36.96-248.53 111.8-6.69 8.4-2.66 21.05 7.42 24.72zm132.25 48.16l238.48 86.83c35.76-121.38 18.7-231.66-42.63-253.98-7.4-2.7-15.13-4-23.09-4-58.02.01-128.27 69.17-172.76 171.15zM521.48 60.5c6.22 16.3 10.83 34.6 13.2 55.19 5.74 49.89-1.42 108.23-18.95 166.98l102.62 37.36c10.09 3.67 21.31-3.43 21.57-14.17 2.32-95.69-41.91-187.44-118.44-245.36zM560 447.98H321.06L386 269.5l-60.14-21.9-72.9 200.37H16c-8.84 0-16 7.16-16 16.01v32.01C0 504.83 7.16 512 16 512h544c8.84 0 16-7.17 16-16.01v-32.01c0-8.84-7.16-16-16-16z" class=""></path></svg>
+        </a>
+      </li>
+      <li class="hex">
+        <a class="flowers">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="leaf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-leaf fa-w-18 fa-3x"><path fill="currentColor" d="M546.2 9.7c-5.6-12.5-21.6-13-28.3-1.2C486.9 62.4 431.4 96 368 96h-80C182 96 96 182 96 288c0 7 .8 13.7 1.5 20.5C161.3 262.8 253.4 224 384 224c8.8 0 16 7.2 16 16s-7.2 16-16 16C132.6 256 26 410.1 2.4 468c-6.6 16.3 1.2 34.9 17.5 41.6 16.4 6.8 35-1.1 41.8-17.3 1.5-3.6 20.9-47.9 71.9-90.6 32.4 43.9 94 85.8 174.9 77.2C465.5 467.5 576 326.7 576 154.3c0-50.2-10.8-102.2-29.8-144.6z" class=""></path></svg>
+        </a>
+      </li>
+      <li class="hex">
+        <a class="tree">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tree" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-tree fa-w-12 fa-3x"><path fill="currentColor" d="M378.31 378.49L298.42 288h30.63c9.01 0 16.98-5 20.78-13.06 3.8-8.04 2.55-17.26-3.28-24.05L268.42 160h28.89c9.1 0 17.3-5.35 20.86-13.61 3.52-8.13 1.86-17.59-4.24-24.08L203.66 4.83c-6.03-6.45-17.28-6.45-23.32 0L70.06 122.31c-6.1 6.49-7.75 15.95-4.24 24.08C69.38 154.65 77.59 160 86.69 160h28.89l-78.14 90.91c-5.81 6.78-7.06 15.99-3.27 24.04C37.97 283 45.93 288 54.95 288h30.63L5.69 378.49c-6 6.79-7.36 16.09-3.56 24.26 3.75 8.05 12 13.25 21.01 13.25H160v24.45l-30.29 48.4c-5.32 10.64 2.42 23.16 14.31 23.16h95.96c11.89 0 19.63-12.52 14.31-23.16L224 440.45V416h136.86c9.01 0 17.26-5.2 21.01-13.25 3.8-8.17 2.44-17.47-3.56-24.26z" class=""></path></svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="four">
+  <!-- This is the fourth slide -->
+  <div class="container">
+    <div class="row">
+      <div class="wrap">
+        <h3 class="start"><a href="#2.0"><img class="svg lazy" data-src="images/graduation-cap-solid.svg"></a> Walter Cronkite School of Journalism (ASU)</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <img class="lazy" data-src="images/Sun-Devil-Stadium.jpg" width="100%" height="100%" />
+      </div>
+      <div class="col-4">
+        <div id="carouselExampleFade" class="fade-carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 lazy" data-src="images/sparky.jpg" alt="ASU Sparky">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 lazy" data-src="images/strong.jpg" alt="Jaelen Strong">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>    
+</section>
+
+<section id="five">
+  <div class="togglelight" title="click to toggle the lights mode">
+    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="lightbulb" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" class="svg-inline--fa fa-lightbulb fa-w-11 fa-3x"><path fill="currentColor" d="M176 80c-52.94 0-96 43.06-96 96 0 8.84 7.16 16 16 16s16-7.16 16-16c0-35.3 28.72-64 64-64 8.84 0 16-7.16 16-16s-7.16-16-16-16zM96.06 459.17c0 3.15.93 6.22 2.68 8.84l24.51 36.84c2.97 4.46 7.97 7.14 13.32 7.14h78.85c5.36 0 10.36-2.68 13.32-7.14l24.51-36.84c1.74-2.62 2.67-5.7 2.68-8.84l.05-43.18H96.02l.04 43.18zM176 0C73.72 0 0 82.97 0 176c0 44.37 16.45 84.85 43.56 115.78 16.64 18.99 42.74 58.8 52.42 92.16v.06h48v-.12c-.01-4.77-.72-9.51-2.15-14.07-5.59-17.81-22.82-64.77-62.17-109.67-20.54-23.43-31.52-53.15-31.61-84.14-.2-73.64 59.67-128 127.95-128 70.58 0 128 57.42 128 128 0 30.97-11.24 60.85-31.65 84.14-39.11 44.61-56.42 91.47-62.1 109.46a47.507 47.507 0 0 0-2.22 14.3v.1h48v-.05c9.68-33.37 35.78-73.18 52.42-92.16C335.55 260.85 352 220.37 352 176 352 78.8 273.2 0 176 0z" class=""></path></svg>
+  </div>
+  <div class="row">
+    <div class="wrap">
+      <h3 class="start">
+        <a href="#2.0">
+        <svg style="color: black;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-youtube fa-w-18 fa-3x"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" class=""></path></svg>
+      </a> We Have ALS Documentary</h3>
+    </div>
+  </div>
+  <iframe class="d-block mx-auto lazy" width="640" height="360" data-src="https://www.youtube.com/embed/KxypOxambSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section>
+  <div class="container" style="padding-top: 3%;">
+    <div class="col-12">
+      <!-- Grid row -->
+      <div class="gallery" id="gallery">
+
+        <!-- Grid column -->
+        <div class="mb-3 pics">
+          <img class="img-fluid lazy" data-src="images/engagement-horizontal.jpg">
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics">
+          <img class="img-fluid lazy" data-src="images/joshua-tree.jpg">
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics">
+          <img class="img-fluid lazy" data-src="images/engagement.jpg">
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics">
+          <a href="#2"><img class="img-fluid lazy" data-src="images/my-fiancee.jpg"></a>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics">
+          <img class="img-fluid lazy" data-src="images/wedding.jpg">
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="mb-3 pics">
+          <img class="img-fluid lazy" data-src="images/graduation.jpg">
+        </div>
+        <!-- Grid column -->
+
+      </div>
+    </div>
+  </div>
+  <!-- Grid row -->    
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="wrap">
+        <h3 class="start"><a href="#2.0"><img class="svg lazy" data-src="images/cloud-sun-solid.svg"></a> Sunset Drive</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleIndicators" class="carousel sunset-carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100 lazy" data-src="images/fireplace.jpg" alt="Fireplace">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 lazy" data-src="images/kitchen.jpg" alt="Kitchen">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 lazy" data-src="images/dining-room.jpg" alt="Dining Room">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>  
+  </div>     
+</section>
+
+<section>
+  <div class="row">
+    <div class="wrap">
+      <h3 class="start"><a href="#2.0"><img class="svg lazy" data-src="images/magic-solid.svg"></a> Harry Potter</h3>
+    </div>
+  </div>
+  <div class="col-12">
+    <!-- Grid row -->
+    <div class="potter" id="potter">
+
+      <div class="mb-3 pics">
+        <img class="img-fluid lazy" data-src="images/hogwarts.jpg">
+      </div>
+
+      <div class="mb-3 pics float-left">
+        <img class="img-fluid lazy" data-src="images/unbreakable-vow.jpg">
+      </div>
+
+      </div>
+    </div>
+  </div>
+   
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>CBS Interactive (August 2015 - January 2017)</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="position-relative">
+
+          <img class="lazy" data-src="images/cbsinteractive.jpg" width="100%">
+          
+          <a target="_blank" href="https://und.com/sports/mhockey/" title="Notre Dame Fighting Irish Men's Hockey" style="position: absolute; left: 6.05%; top: 41.57%; width: 34.41%; height: 55.56%; z-index: 2;"></a>
+          <a target="_blank" href="https://und.com/sports/mhockey/" title="Notre Dame Fighting Irish Men's Hockey" style="position: absolute; left: 0.88%; top: 90.85%; width: 5.11%; height: 6.5%; z-index: 2;"></a>
+          <a target="_blank" href="https://und.com/sports/mhockey/" title="Notre Dame Fighting Irish Men's Hockey" style="position: absolute; left: 40.4%; top: 89.5%; width: 5.52%; height: 7.71%; z-index: 2;"></a>
+          
+          <a target="_blank" href="https://usctrojans.com/sports/football" title="USC Men's Football" style="position: absolute; left: 90.65%; top: 60.65%; width: 8.5%; height: 37.33%; z-index: 3;"></a>
+          
+          <a target="_blank" href="https://uconnhuskies.com/sports/womens-basketball" title="UConn Women's Basketball" style="position: absolute; left: 75.4%; top: 44.71%; width: 17.25%; height: 53.5%; z-index: 2;"></a>
+          
+          <a target="_blank" href="https://uhcougars.com/" title="Houston Cougars Athletics" style="position: absolute; left: 32.94%; top: 2.75%; width: 46.86%; height: 76.25%; z-index: 1;"></a>
+          <a target="_blank" href="https://uhcougars.com/" title="Houston Cougars Athletics" style="position: absolute; left: 51.09%; top: 78.69%; width: 10.57%; height: 17.91%; z-index: 1;"></a>
+          <a target="_blank" href="https://uhcougars.com/" title="Houston Cougars Athletics" style="position: absolute; left: 47.5%; top: 85%; width: 4.17%; height: 12.25%; z-index: 1;"></a>
+          <a target="_blank" href="https://uhcougars.com/" title="Houston Cougars Athletics" style="position: absolute; left: 61.71%; top: 84.31%; width: 3.88%;  height: 12.29%; z-index: 1;"></a>
+          
+          </div>
+      </div>
+    </div>
+  </div> 
+</section>
+
+<section>
+  <!-- This is the fifth slide -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>Scentco, Inc. (January 2017 - August 2019)</h3>
+      </div>
+    </div>
+    <div class="row pt-3 mb-7 align-items-center">
+        <div class="col-6 ">
+          <div id="carouselExampleFade" class="fade-carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 lazy" data-src="images/boy-scout.svg" alt="Boy Scout">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 lazy" data-src="images/basketball_illustration.svg" alt="Basketball Player">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 offset-1">
+          <h2 class="scentco font-weight-bolder">All types of organizations use Scentco Fundraising</h2>
+          <p class="fundraising">
+            We have many products to choose from, but we’ve made it easy by suggesting what products work best for the age range of your fundraiser. Learn more by clicking below!<br><a target="_blank" href="https://www.scentcofundraising.com/shop/" class="btn btn-primary btn-arrow float-left mt-3">Learn more <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 fa-3x"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z" class=""></path></svg></a>
+          </p>
+        </div>
+    <p></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="snapshotDetail screenSnapshotDetail" style="position:relative;margin: 0 auto;z-index: 1;">
+    <img class="snapshotImage lazy" width="1200" height="930" data-src="images/design.png" style="width: 100%; height: auto;">
+    <div class="layers">
+      <div class="zplLayer" style="position: absolute; z-index:5;width: 100%; height: 100%; left: 0%; top: 0%;"></div>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 13%; height: 6.45161%; left: 0%; top: 12.3656%;" href="https://forge-playground.a.intuit.com/latest/?cid=c4AFsc4Od" target="_blank"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 29.25%; height: 23.5484%; left: 21.5%; top: 11.0753%;"></a>
+      <a class="zplLayer" style="position: absolute;z-index:5;width: 40%;height: 8.70968%;left: 52.4167%;top: 16.2366%;"></a>
+      <a class="zplLayer" style="position: absolute;z-index:5;width: 23.3333%;height: 2.25806%;left: 60.75%;top: 25.1613%;"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 76.6667%; height: 26.8817%; left: 18.1667%; top: 38.4946%;"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 58.1667%; height: 6.45161%; left: 27.4167%; top: 41.828%;"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 19%; height: 5.5914%; left: 47%; top: 50.9677%;"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 4.25%; height: 2.36559%; left: 42.8333%; top: 58.4946%;"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 9.91667%; height: 2.36559%; left: 47.5%; top: 58.4946%;"></a>
+      <a class="zplLayer" style="position: absolute; z-index:5;width: 10.0833%; height: 2.36559%; left: 58%; top: 58.3871%;"></a>
+      <a class="zplLayer" style="position: absolute;z-index:5;width: 38.3333%;height: 2.68817%;left: 37.3333%;top: 69.5699%;"></a>
+      <a class="zplLayer" style="position: absolute;z-index:5;width: 24.3333%;height: 2.68817%;left: 15.3333%;top: 82%;"></a>
+      <a class="zplLayer" style="position: absolute;z-index:5;width: 8%;height: 2.68817%;left: 1%;top: 89%;" href="https://cqa.myturbotax.intuit.com/" target="_blank"></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <!-- This is the sixth slide -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>A Case of the Mondays</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active text-center" id="list-problem-list" data-toggle="list" href="#list-problem" role="tab" aria-controls="problem">1</a>
+          <a class="list-group-item list-group-item-action text-center" id="list-approach-list" data-toggle="list" href="#list-approach" role="tab" aria-controls="approach">2</a>
+          <a class="list-group-item list-group-item-action text-center" id="list-result-list" data-toggle="list" href="#list-result" role="tab" aria-controls="result">3</a>
+          <a class="list-group-item list-group-item-action text-center" id="list-issues-list" data-toggle="list" href="#list-issues" role="tab" aria-controls="issues">4</a>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-problem" role="tabpanel" aria-labelledby="list-problem-list">
+            <h3>The Problem</h3>
+            <ul>
+              <li class="next" next-order="1">Project requests were made in passing & left on sticky notes
+              <li class="next" next-order="2">Loose deadlines & lack of prioritization
+              <li class="next" next-order="3">Lack of communication across <br>different teams 
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="list-approach" role="tabpanel" aria-labelledby="list-approach-list">
+            <h3>The Approach</h3>
+            <ul>
+              <li class="next" next-order="4">Better facilitate collaboration
+              <li class="next" next-order="5">Provide accountability
+              <li class="next" next-order="6">Ready-made software and <br>user-friendly interface  
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="list-result" role="tabpanel" aria-labelledby="list-result-list">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <a target="_blank" href="https://monday.com/">
+                    <img style="margin-top:25px;" class="d-block lazy mx-auto" data-src="images/monday-logo.png" max-width="100%"/>
+                  </a>
+                </div>
+              </div>  
+          </div>
+          <ul>
+            <li class="next" next-order="7">
+              <!-- Button trigger modal -->
+              <a style="cursor: pointer;" data-toggle="modal" data-target="#colloborationModal">Colloboration</a>
+                 
+              <!-- Modal -->
+              <div class="modal fade" id="colloborationModal" tabindex="-1" role="dialog" aria-labelledby="colloborationModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center" id="colloborationModalLongTitle">Colloboration</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <video controls="" autoplay="" name="media"><source src="https://dapulse-res.cloudinary.com/video/upload/q_auto,f_auto,cs_copy/remote_mondaycom_static/video/capabilites_videos/colaboration.mp4" type="video/mp4"></video>
+                  </div>
+                </div>
+              </div>
+           <li class="next" next-order="8">
+             <!-- Button trigger modal -->
+             <a style="cursor: pointer;" data-toggle="modal" data-target="#visualizationModal">Data Visualization</a>
+                 
+             <!-- Modal -->
+             <div class="modal fade" id="visualizationModal" tabindex="-1" role="dialog" aria-labelledby="visualizationModalCenterTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <h5 class="modal-title text-center" id="visualizationModalLongTitle">Data Visualization</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+                   </div>
+                   <video controls="" autoplay="" name="media"><source src="https://dapulse-res.cloudinary.com/video/upload/q_auto,f_auto,cs_copy/remote_mondaycom_static/video/capabilites_videos/data-viz.mp4" type="video/mp4"></video>
+                 </div>
+               </div>
+             </div>
+             <li class="next" next-order="9">
+              <!-- Button trigger modal -->
+              <a style="cursor: pointer;" data-toggle="modal" data-target="#automationModal">Automation</a>
+                   
+               <!-- Modal -->
+                <div class="modal fade" id="automationModal" tabindex="-1" role="dialog" aria-labelledby="automationModalCenterTitle"  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title text-center" id="automationModalLongTitle">Automation</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <video controls="" autoplay="" name="media"><source src="https://dapulse-res.cloudinary.com/video/upload/q_auto,f_auto,cs_copy/remote_mondaycom_static/video/capabilites_videos/automations.mp4" type="video/mp4"></video>
+                     </div>
+                  </div>
+                </div>
+          </ul>
+          </div>
+          <div class="tab-pane fade" id="list-issues" role="tabpanel" aria-labelledby="list-issues-list">
+            <h3>Ongoing Issues</h3>
+            <ul>
+              <li class="next" next-order="10">Boards limited to design team's use
+              <li class="next" next-order="11">Missing needed sales integrations
+              <li class="next" next-order="12">Not scalable or customizable like JIRA
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Maybe a font from http://www.google.com/webfonts ? -->
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+<style>
+  html, .view body { background-color: black; counter-reset: slideidx; }
+  body, .view section {
+    background-color: white; border-radius: 12px;
+    font-family: 'Oswald', arial, serif;
+  }
+
+  section, .view head > title {
+      font-size: 2rem;
+  }
+
+  .view section:after {
+    counter-increment: slideidx;
+    content: counter(slideidx, decimal-leading-zero);
+    position: absolute; bottom: -80px; right: 100px;
+    color: white;
+  }
+
+  .view head > title {
+    color: white;
+    text-align: center;
+    margin: 1em 0 1em 0;
+  }
+
+  h1 {
+    margin: 130px 0 30px;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .scentco, .fundraising {
+    font-family: 'Lato',sans-serif;
+    text-align: left;
+  }
+
+  .scentco {
+    color: #0094c8;
+    font-size: 2.6rem;
+    line-height: 1.1;
+  }
+  
+  .fundraising {
+    color: #606060;
+    font-size: 1.36rem;
+    text-align: left;
+  }
+  
+  .carousel-item {
+    transition: opacity 1000ms;
+  }
+
+  .btn-arrow:hover svg {
+    transform: translateX(8px);
+  }
+
+  h3 {
+    margin: 50px 50px 40px 50px;
+    text-align: center;
+  }
+
+  section:nth-child(1) h1 {
+    margin-top: 0px;
+  }
+
+  section:nth-child(2) h1:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  section:nth-child(3) p {
+    font-style: italic;
+  }
+
+  section:nth-child(3) .row:nth-child(2) {
+    margin-top: 10%;
+  }
+
+  pre {
+    overflow: hidden;
+    font-size: 1.25rem;
+    margin: 0 75px 0 75px;
+    padding: 10px;
+    border: 1px solid;
+    font-weight: bold;
+    background-color: #F7F7F7;
+    width:80%
+  }
+
+  ul, ol {
+      margin: 40px 100px 0 100px;
+  }
+
+  li > ul, ol {
+      margin: 0 0 15px 50px;
+      list-style-image: none; /* in case parent list has some */
+  }
+
+  mark.next:not([active]) {
+    visibility: visible; /* override the default behavior where next is hidden */
+    background-color: inherit; /* and disable highlighting instead */
+  }
+
+  p {
+    font-size: 1.75rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  table {
+    margin: auto;
+    font-size:2.5rem;
+    text-align: center;
+  }
+
+  /* Figures are displayed full-page, with the caption
+     on top of the image/video */
+  video {
+    width: 100%;
+  }   
+  figure {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
+  figure > * {
+    position: absolute;
+  }
+  figure > img, figure > video {
+    width: 100%; height: 100%;
+  }
+  figcaption {
+    margin: 70px;
+    font-size: 3rem;
+  }
+
+  header {
+    background-color: #F3F4F8;
+    border-bottom: 1px solid #CCC;
+  }
+
+  footer {
+    background-color: #F3F4F8;
+    border-top: 1px solid #CCC;
+    padding-bottom: 4px; /* remember progress bar */
+  }
+
+  section footer {
+    padding: 10px;
+  }
+
+  /* Transition effect */
+  /* Feel free to change the transition effect for original
+     animations. See here:
+     https://developer.mozilla.org/en/CSS/CSS_transitions
+     How to use CSS3 Transitions: */
+  section {
+    transition: left 400ms linear 0s;
+  }
+  .view section {
+    transition: none;
+  }
+
+  .view section[aria-selected] {
+    border: 5px
+     red solid;
+  }
+
+  #smb {
+    width: 218px;
+    margin-top: 10%;
+  }
+
+  #smb:hover {
+    cursor: grab;
+  }
+
+  .btn-arrow {
+    padding-right: 20px;
+  }
+  .btn-primary {
+    background-color: #0094c8;
+    border-color: #0094c8;
+  }
+  .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #f68a1f;
+    border-color: #f68a1f;
+  }
+  .btn {
+    border-radius: 1.25rem;
+  }
+  .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+  }
+  .mt-3, .my-3 {
+    margin-top: 1rem !important;
+  }
+
+  .wrap {
+  width: 100%;
+  text-align: center;
+  }
+
+  .wrap div {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .test {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+   a svg {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .svg, svg {
+    height: 32px;
+    margin: 0 auto;
+  }
+
+  .hex a svg {
+    height: 25px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .about-me {
+    margin-top: 5%;
+  }
+
+  a.zplLayer:hover {
+    border: 1px solid #419bf9 !important;
+  }
+
+  a.zplLayer.active, a.zplLayer:active {
+    border: 1px solid #ff5500 !important;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+    min-height: 250px;
+  }
+
+  .modal-dialog {
+    max-width: 90%;
+  }
+
+  .social-list-inline {
+    position: relative;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .hex {
+    position: relative;
+    margin: 0;
+    width: 29px;
+    height: 47px;
+    background-color: transparent;
+    cursor: pointer;
+    transform: rotate(-90deg);
+    display: inline-block;
+    transition: background-color .3s ease;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    margin-right: 40px;
+  }
+  
+  .hex:before {
+    transform: rotate(60deg);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 5px;
+    width: 30px;
+    height: 46px;
+    left: 0;
+  }
+
+  .hex:after {
+    transform: rotate(-59deg);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 6px;
+    width: 31px;
+    height: 46px;
+    left: -1px;
+  }  
+
+  .hex:before, .hex:after {
+    position: absolute;
+    background: inherit;
+    content: '';
+    z-index: -1;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    top: 0;
+  }
+
+  .hex a {
+    display: block;
+    width: 47px;
+    height: 100%;
+    line-height: 40px;
+    transform: rotate(90deg);
+    position: relative;
+    left: -10px;
+  }
+
+  .hex i {
+    font-size: 25px;
+  }
+
+  section#three ul {
+    margin: 40px 100px 0 130px;
+  }
+
+  .gallery {
+  padding-top: 3%;  
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%; }
+  .gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease; }
+  .gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+
+  @media (max-width: 450px) {
+    .gallery {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+      -webkit-column-width: 100%;
+      -moz-column-width: 100%;
+      column-width: 100%;
+      }
+  }
+
+  .potter {
+    padding-top: 3%;  
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 49%;
+    -moz-column-width: 49%;
+    column-width: 49%; }
+    .potter .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .potter .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+  }
+
+  .potter img.lazy.loaded {
+    filter: grayscale(1);
+  }
+
+  .potter img.lazy.loaded:hover {
+    filter: grayscale(0);
+  }
+
+  @media (max-width: 400px) {
+    .btn.filter {
+      padding-left: 1.1rem;
+      padding-right: 1.1rem;
+    }
+  }
+
+/* button */
+
+.togglelight {
+  z-index: 2;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 5px;
+  text-align: center;
+  line-height: 40px;
+  width: 35px;
+  height: 35px;
+  transition: background .2s ease, box-shadow .2s ease;
+  cursor: pointer;
+}
+
+section.lightsoff {
+  background: #000;
+  color: #fff;
+}
+
+.togglelight .fa {
+  font-size: 25px;
+  transition: color .2s ease;
+}
+
+.list-group {
+  flex-direction: row;
+}
+
+.togglelight:active { 
+  box-shadow: 0 0 10px #222; 
+}
+
+.sunset-carousel img {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  float: left;
+  margin-bottom: 25px !important;
+}
+
+#mainBox {
+  margin: 0 auto;
+  padding: 0;
+}
+#mainBox img {
+  cursor: pointer;
+  transition: all 1s ease-in-out; 
+}
+#mainBox p {
+  text-align: center;
+  vertical-align:middle;
+}
+.flip {
+ transform: scale(-.5, 0); 
+}
+
+@media screen {
+  /* Before */
+  section { left: -150%; }
+  /* Now */
+  section[aria-selected] { left: 0; }
+  /* After */
+  section[aria-selected] ~ section { left: +150%; }
+}
+
+  /* The progressbar, at the bottom of the slides, show the global
+     progress of the presentation. */
+  #progress-bar {
+    height: 4px;
+    background: #AAA;
+  }
+</style>
+
+<!-- {{{{ dzslides core
+#
+#
+#     __  __  __       .  __   ___  __
+#    |  \  / /__` |    | |  \ |__  /__`
+#    |__/ /_ .__/ |___ | |__/ |___ .__/ core :€
+#
+#
+# The following block of code is not supposed to be edited.
+# But if you want to change the behavior of these slides,
+# feel free to hack it!
+#
+-->
+
+<div id="progress-bar"></div>
+
+<!-- Default Style -->
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  [role="note"] { display: none; }
+  html {
+    font-size: 16px;
+  }
+  body {
+    width: 800px; height: 600px;
+    position: absolute; top: 50%; left: 50%;
+    overflow: hidden;
+    display: none;
+  }
+  .view body {
+    position: static;
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+    display: inline-block;
+    overflow: visible; overflow-x: hidden;
+    /* undo Dz.onresize */
+    transform: none !important;
+  }
+  .view head, .view head > title { display: block }
+  section {
+    position: absolute;
+    pointer-events: none;
+    width: 100%; height: 100%;
+  }
+  .view section {
+    pointer-events: auto;
+    position: static;
+    width: 800px; height: 600px;
+    margin: -150px -200px;
+    float: left;
+
+    transform: scale(.4);
+  }
+  .view section > * { pointer-events: none; }
+  section[aria-selected] { pointer-events: auto; }
+  html { overflow: hidden; }
+  html.view { overflow: visible; }
+  body.loaded { display: block; }
+  .next:not([active]) {visibility: hidden; }
+  #progress-bar{
+    bottom: 0;
+    position: absolute;
+    transition: width 400ms linear 0s;
+  }
+  .view #progress-bar {
+    display: none;
+  }
+  header {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  footer {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .view header { display: none; }
+  .view footer { display: none; }
+
+  @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* =============================================================================
+Variables
+========================================================================== */
+/* =============================================================================
+Homepage Hero
+========================================================================== */
+* {
+  font-family: "Lato", sans-serif;
+}
+
+/*
+   **************************************
+   Uncomment the following for 16:9 slides
+   **************************************
+
+  html { font-size: 12px; }
+  body { height: 450px; }
+  .view section {
+    height: 450px;
+    margin: -140px -200px;
+    transform: scale(.3);
+  }
+*/
+</style>
+
+<script>
+  var Dz = {
+    remoteWindows: [],
+    idx: -1,
+    step: 0,
+    html: null,
+    slides: null,
+    progressBar : null,
+    params: {
+      autoplay: "1"
+    }
+  };
+
+  Dz.init = function() {
+    document.body.className = "loaded";
+    this.slides = Array.prototype.slice.call($$("body > section"));
+    this.progressBar = $("#progress-bar");
+    this.html = document.body.parentNode;
+    this.setupParams();
+    this.onhashchange();
+    this.setupTouchEvents();
+    this.onresize();
+    this.setupView();
+  }
+
+  Dz.setupParams = function() {
+    var p = window.location.search.substr(1).split('&');
+    p.forEach(function(e, i, a) {
+      var keyVal = e.split('=');
+      Dz.params[keyVal[0]] = decodeURIComponent(keyVal[1]);
+    });
+  // Specific params handling
+    if (!+this.params.autoplay)
+      $$.forEach($$("video"), function(v){ v.controls = true });
+  }
+
+  Dz.onkeydown = function(aEvent) {
+    // Don't intercept keyboard shortcuts
+    if (aEvent.altKey
+      || aEvent.ctrlKey
+      || aEvent.metaKey
+      || aEvent.shiftKey) {
+      return;
+    }
+    if ( aEvent.keyCode == 37 // left arrow
+      || aEvent.keyCode == 38 // up arrow
+      || aEvent.keyCode == 33 // page up
+    ) {
+      aEvent.preventDefault();
+      this.back();
+    }
+    if ( aEvent.keyCode == 39 // right arrow
+      || aEvent.keyCode == 40 // down arrow
+      || aEvent.keyCode == 34 // page down
+    ) {
+      aEvent.preventDefault();
+      this.forward();
+    }
+    if (aEvent.keyCode == 35) { // end
+      aEvent.preventDefault();
+      this.goEnd();
+    }
+    if (aEvent.keyCode == 36) { // home
+      aEvent.preventDefault();
+      this.goStart();
+    }
+    if (aEvent.keyCode == 32) { // space
+      aEvent.preventDefault();
+      this.toggleContent();
+    }
+    if (aEvent.keyCode == 70) { // f
+      aEvent.preventDefault();
+      this.goFullscreen();
+    }
+  }
+
+  /* Touch Events */
+
+  Dz.setupTouchEvents = function() {
+    var orgX, newX;
+    var tracking = false;
+
+    var db = document.body;
+    db.addEventListener("touchstart", start.bind(this), false);
+    db.addEventListener("touchmove", move.bind(this), false);
+
+    function start(aEvent) {
+      aEvent.preventDefault();
+      tracking = true;
+      orgX = aEvent.changedTouches[0].pageX;
+    }
+
+    function move(aEvent) {
+      if (!tracking) return;
+      newX = aEvent.changedTouches[0].pageX;
+      if (orgX - newX > 100) {
+        tracking = false;
+        this.forward();
+      } else {
+        if (orgX - newX < -100) {
+          tracking = false;
+          this.back();
+        }
+      }
+    }
+  }
+
+  Dz.setupView = function() {
+    document.body.addEventListener("click", function ( e ) {
+      if (!Dz.html.classList.contains("view")) return;
+      if (!e.target || e.target.nodeName != "SECTION") return;
+
+      Dz.html.classList.remove("view");
+      Dz.setCursor(Dz.slides.indexOf(e.target) + 1);
+    }, false);
+  }
+
+  /* Adapt the size of the slides to the window */
+
+  Dz.onresize = function() {
+    var db = document.body;
+    var sx = db.clientWidth / window.innerWidth;
+    var sy = db.clientHeight / window.innerHeight;
+    var transform = "scale(" + (1/Math.max(sx, sy)) + ")";
+    db.style.transform = transform;
+    db.style.marginTop = -db.clientHeight / 2 + "px";
+    db.style.marginLeft = -db.clientWidth / 2 + "px";
+  }
+
+
+  Dz.getNotes = function(aIdx) {
+    var s = $("section:nth-of-type(" + aIdx + ")");
+    var d = s.$("[role='note']");
+    return d ? d.innerHTML : "";
+  }
+
+  Dz.onmessage = function(aEvent) {
+    var argv = aEvent.data.split(" "), argc = argv.length;
+    argv.forEach(function(e, i, a) { a[i] = decodeURIComponent(e) });
+    var win = aEvent.source;
+    if (argv[0] === "REGISTER" && argc === 1) {
+      this.remoteWindows.push(win);
+      this.postMsg(win, "REGISTERED", document.title, this.slides.length);
+      this.postMsg(win, "CURSOR", this.idx + "." + this.step);
+      return;
+    }
+    if (argv[0] === "BACK" && argc === 1)
+      this.back();
+    if (argv[0] === "FORWARD" && argc === 1)
+      this.forward();
+    if (argv[0] === "START" && argc === 1)
+      this.goStart();
+    if (argv[0] === "END" && argc === 1)
+      this.goEnd();
+    if (argv[0] === "TOGGLE_CONTENT" && argc === 1)
+      this.toggleContent();
+    if (argv[0] === "SET_CURSOR" && argc === 2)
+      window.location.hash = "#" + argv[1];
+    if (argv[0] === "GET_CURSOR" && argc === 1)
+      this.postMsg(win, "CURSOR", this.idx + "." + this.step);
+    if (argv[0] === "GET_NOTES" && argc === 1)
+      this.postMsg(win, "NOTES", this.getNotes(this.idx));
+  }
+
+  Dz.toggleContent = function() {
+    // If a Video is present in this new slide, play it.
+    // If a Video is present in the previous slide, stop it.
+    var s = $("section[aria-selected]");
+    if (s) {
+      var video = s.$("video");
+      if (video) {
+        if (video.ended || video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      }
+    }
+  }
+
+  Dz.setCursor = function(aIdx, aStep) {
+    // If the user change the slide number in the URL bar, jump
+    // to this slide.
+    aStep = (aStep != 0 && typeof aStep !== "undefined") ? "." + aStep : "";
+    window.location.hash = "#" + aIdx + aStep;
+  }
+
+  Dz.onhashchange = function() {
+    var cursor = window.location.hash.split("#"),
+        newidx = 1,
+        newstep = 0;
+    if (cursor.length == 2) {
+      newidx = ~~cursor[1].split(".")[0];
+      newstep = ~~cursor[1].split(".")[1];
+      if (newstep > Dz.slides[newidx - 1].$$('.next').length) {
+        newstep = 0;
+        newidx++;
+      }
+    }
+    this.setProgress(newidx, newstep);
+    if (newidx != this.idx) {
+      this.setSlide(newidx);
+    }
+    if (newstep != this.step) {
+      this.setIncremental(newstep);
+    }
+    for (var i = 0; i < this.remoteWindows.length; i++) {
+      this.postMsg(this.remoteWindows[i], "CURSOR", this.idx + "." + this.step);
+    }
+  }
+
+  Dz.back = function() {
+    if (this.idx == 1) {
+      return;
+    }
+    this.setCursor(this.idx - 1,
+                   this.slides[this.idx - 2].$$('.next[active]').length);
+  }
+
+  Dz.forward = function() {
+    if (this.idx >= this.slides.length &&
+        this.step >= this.slides[this.idx - 1].$$('.next').length) {
+        return;
+    }
+    if (this.html.classList.contains("view") ||
+        this.step >= this.slides[this.idx - 1].$$('.next').length) {
+      this.setCursor(this.idx + 1,
+                     this.slides[this.idx].$$('.next[active]').length);
+    } else {
+      this.setCursor(this.idx, this.step + 1);
+    }
+  }
+
+  Dz.goStart = function() {
+    this.setCursor(1, 0);
+  }
+
+  Dz.goEnd = function() {
+    var lastIdx = this.slides.length;
+    var lastStep = this.slides[lastIdx - 1].$$('.next').length;
+    this.setCursor(lastIdx, lastStep);
+  }
+
+  Dz.toggleView = function() {
+    this.html.classList.toggle("view");
+
+    if (this.html.classList.contains("view")) {
+      $("section[aria-selected]").scrollIntoView(true);
+    }
+  }
+
+  Dz.setSlide = function(aIdx) {
+    this.idx = aIdx;
+    var old = $("section[aria-selected]");
+    var next = $("section:nth-of-type("+ this.idx +")");
+    if (old) {
+      old.removeAttribute("aria-selected");
+      var video = old.$("video");
+      if (video) {
+        video.pause();
+      }
+    }
+    if (next) {
+      next.setAttribute("aria-selected", "true");
+      if (this.html.classList.contains("view")) {
+        next.scrollIntoView();
+      } else {
+        var video = next.$("video");
+        if (video && !!+this.params.autoplay) {
+          video.play();
+        }
+      }
+    } else {
+      // That should not happen
+      this.idx = -1;
+      // console.warn("Slide doesn't exist.");
+    }
+  }
+
+  Dz.setIncremental = function(aStep) {
+    this.step = aStep;
+    var incrementals = Array.prototype.slice.call(this.slides[this.idx - 1].$$('.next')).sort(function(a, b) {
+            return Number(a.getAttribute('next-order')) - Number(b.getAttribute('next-order'));
+          });
+    var next = incrementals[this.step - 1];
+    if (next) {
+      next.setAttribute('active', true);
+    } else {
+      this.setCursor(this.idx, 0);
+    }
+    return next;
+  }
+
+  Dz.goFullscreen = function() {
+    var html = $('html'),
+        requestFullscreen = html.requestFullscreen || html.requestFullScreen || html.mozRequestFullScreen || html.webkitRequestFullScreen;
+    if (requestFullscreen) {
+      requestFullscreen.apply(html);
+    }
+  }
+  
+  Dz.setProgress = function(aIdx, aStep) {
+    var slide = $("section:nth-of-type("+ aIdx +")");
+    if (!slide)
+      return;
+    var steps = slide.$$('.next').length + 1,
+        slideSize = 100 / (this.slides.length - 1),
+        stepSize = slideSize / steps;
+    this.progressBar.style.width = ((aIdx - 1) * slideSize + aStep * stepSize) + '%';
+  }
+  
+  Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
+    aMsg = [aMsg];
+    for (var i = 2; i < arguments.length; i++)
+      aMsg.push(encodeURIComponent(arguments[i]));
+    aWin.postMessage(aMsg.join(" "), "*");
+  }
+  
+  function init() {
+    Dz.init();
+    window.onkeydown = Dz.onkeydown.bind(Dz);
+    window.onresize = Dz.onresize.bind(Dz);
+    window.onhashchange = Dz.onhashchange.bind(Dz);
+    window.onmessage = Dz.onmessage.bind(Dz);
+  }
+
+  window.onload = init;
+
+  // Helpers
+  if (!Function.prototype.bind) {
+    Function.prototype.bind = function (oThis) {
+
+      // closest thing possible to the ECMAScript 5 internal IsCallable
+      // function 
+      if (typeof this !== "function")
+      throw new TypeError(
+        "Function.prototype.bind - what is trying to be fBound is not callable"
+      );
+
+      var aArgs = Array.prototype.slice.call(arguments, 1),
+          fToBind = this,
+          fNOP = function () {},
+          fBound = function () {
+            return fToBind.apply( this instanceof fNOP ? this : oThis || window,
+                   aArgs.concat(Array.prototype.slice.call(arguments)));
+          };
+
+      fNOP.prototype = this.prototype;
+      fBound.prototype = new fNOP();
+
+      return fBound;
+    };
+  }
+
+  var $ = (HTMLElement.prototype.$ = function(aQuery) {
+    return this.querySelector(aQuery);
+  }).bind(document);
+
+  var $$ = (HTMLElement.prototype.$$ = function(aQuery) {
+    return this.querySelectorAll(aQuery);
+  }).bind(document);
+
+  $$.forEach = function(nodeList, fun) {
+    Array.prototype.forEach.call(nodeList, fun);
+  }
+
+  function typeWriter(text, n) {
+  if (n < (text.length)) {
+    $('.test').html(text.substring(0, n+1));
+    n++;
+    setTimeout(function() {
+      typeWriter(text, n)
+    }, 100);
+  }
+}
+
+  // Custom Scripts // 
+
+  var hash_link = location.hash;
+  var myId = jQuery("html").find("section").attr('id');
+  var section_Id = "#" +myId;
+
+  jQuery('html').keyup(function(e){
+
+    if (e.keyCode == 32 && hash_link == section_Id){
+      e.preventDefault();
+      jQuery(this).find(".modal").toggle();
+    } else if (e.which == 37 || e.which == 39) {
+      jQuery(this).find(".modal").hide();
+    } else if (e.which == 38 || e.which == 40) {
+      jQuery(this).find(".modal").hide();
+    }
+  });
+
+  jQuery('.hex a').on('click', function () {
+      if (jQuery(this).hasClass("beach")) {
+        jQuery('section#three').css("background-image", "url('images/summer-came-early.jpg')");
+      } else if (jQuery(this).hasClass("flowers")) {
+        jQuery('section#three').css("background-image", "url('images/busy-bee.jpg')");
+      } else if (jQuery(this).hasClass("tree")) {
+        jQuery('section#three').css("background-image", "url('images/bixby-bridge.jpg')");
+      }
+  });
+
+  jQuery('a.photography').on('click', function () {
+      jQuery('section#three').css("background-image", "url('images/timelapses.gif')");
+  });
+
+  jQuery('.carousel').carousel({
+    interval: false
+  })
+
+  jQuery('.fade-carousel').carousel({
+    interval: 4500
+  })
+
+  jQuery(function() {
+    jQuery('a.zplLayer').on('click', function () {
+      if (jQuery("a.zplLayer").not(this).hasClass("active")) {
+        jQuery('a.zplLayer').removeClass('active');
+      } else {
+          jQuery(this).toggleClass('active').focus();
+        }
+    })
+  });
+
+  jQuery(function() {
+  jQuery('a.zplLayer.active').on('click', function () {
+      jQuery(location).attr('href', 'https://forge-playground.a.intuit.com/latest/?cid=c4AFsc4Od');
+    })
+  });
+
+  jQuery('div.zplLayer,a').on('click', function () {
+    jQuery('a.zplLayer').removeClass('active');
+  });
+
+  var lazyLoadInstance = new LazyLoad({
+  // Your custom settings go here
+  });
+  
+  /* show/hide overlay & toggle style of button */
+  jQuery('.togglelight').click(function(){
+    jQuery("section#five").toggleClass('lightsoff');
+    jQuery("section#five svg").toggleClass('text-white');
+  });
+
+</script>
+
+<!-- vim: set fdm=marker: }}} -->

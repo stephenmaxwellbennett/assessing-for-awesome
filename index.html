@@ -15,13 +15,11 @@
     <img id="smb" style="display: block;" class="mx-auto" width="105px" src="images/hello.png"
       onmouseover="this.src='images/hello.gif';"
       onmouseout="this.src='images/hello.png';">
-      <img id="smb-awesome" style="display: none;" class="mx-auto" width="105px" src="images/hello-awesome.png"
-      onmouseover="this.src='images/hello-awesome.gif';"
-      onmouseout="this.src='images/hello-awesome.png';">
+      <img id="smb-thank-you" style="display: none;" class="mx-auto" width="105px" src="images/hello.gif">
     <div class="col-12">
       <h2 id="hello" class="text-secondary"><em>hello!</em></h2>
       <h1>Stephen Maxwell Bennett</h1>
-      <h2>Assessing for <span id="awesome">Awesome</span></h2>
+      <h2>Assessing for Awesome</h2>
 </section>
 
 <section id="two">
@@ -311,6 +309,7 @@
       <a class="zplLayer" style="position: absolute;z-index:5;width: 38.3333%;height: 2.68817%;left: 37.3333%;top: 69.5699%;"></a>
       <a class="zplLayer" style="position: absolute;z-index:5;width: 24.3333%;height: 2.68817%;left: 15.3333%;top: 82%;"></a>
       <a class="zplLayer" style="position: absolute;z-index:5;width: 8%;height: 2.68817%;left: 1%;top: 89%;" href="https://cqa.myturbotax.intuit.com/" target="_blank"></a>
+      <a class="zplLayer" id="goodbye" style="position: absolute;z-index:5;width: 5.5%;height: 2.68817%;left: 1%;top: 92.5%;" href="#1" ></a>
     </div>
   </div>
 </section>
@@ -600,16 +599,16 @@
      red solid;
   }
 
-  #smb, #smb-awesome {
+  #smb, #smb-thank-you {
     width: 218px;
     margin-top: 10%;
   }
 
-  #smb-awesome {
+  #smb-thank-you {
     display: block;
   }
 
-  #smb:hover, #smb-awesome:hover {
+  #smb:hover, #smb-thank-you:hover {
     cursor: grab;
   }
 
@@ -1464,9 +1463,10 @@ Homepage Hero
   });
 
   /* show/hide overlay & toggle style of button */
-  jQuery('#awesome').click(function(){
+  jQuery('#goodbye').click(function(){
     jQuery("#smb").toggle();
-    jQuery("#smb-awesome").toggle('');
+    jQuery("#smb-thank-you").toggle('');
+    jQuery("#hello").text("that's all folks! thank you!");
   });
 
 </script>

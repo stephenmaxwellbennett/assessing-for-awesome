@@ -12,56 +12,16 @@
 </head>
 
 <section id="one">
-    <img id="smb" class="d-block mx-auto" width="105px" src="images/hello.png"
+    <img id="smb" style="display: block;" class="mx-auto" width="105px" src="images/hello.png"
       onmouseover="this.src='images/hello.gif';"
       onmouseout="this.src='images/hello.png';">
+      <img id="smb-awesome" style="display: none;" class="mx-auto" width="105px" src="images/hello-awesome.png"
+      onmouseover="this.src='images/hello-awesome.gif';"
+      onmouseout="this.src='images/hello-awesome.png';">
     <div class="col-12">
       <h2 id="hello" class="text-secondary"><em>hello!</em></h2>
       <h1>Stephen Maxwell Bennett</h1>
-      <h2>Assessing for Awesome</h2>
-      <div class="modal" tabindex="-1" role="dialog" style="display: none ;">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body modal-code">
-              <textarea readonly>
-
-<img id="smb" class="d-block lazy mx-auto" src="images/hello.png" 
-onmouseover="this.src='images/hello.gif';" 
-onmouseout="this.src='images/hello.png';">
-
-<div class="col-12">
-  <h2 id="hello" class="text-secondary"><em>hello!</em></h2>
-  <h1>Stephen Maxwell Bennett</h1>
-  <h2>Assessing for Awesome</h2>
-</div>
-
-<script>
-jQuery('html').keyup(function(e){
-  var hash_link = location.hash;
-  var myId = jQuery("html").find("section").attr('id');
-  var section_Id = "#" +myId;
-
-  if (e.keyCode == 32 && hash_link == section_Id){
-    e.preventDefault();
-    jQuery(this).find(".modal").toggle();
-  } else if (e.which == 37 || e.which == 39) {
-      jQuery(this).find(".modal").hide();
-    } else if (e.which == 38 || e.which == 40) {
-      jQuery(this).find(".modal").hide();
-    }
-  });
-</script>
-              </textarea> 
-            </div>
-        </div>
-      </div>
-    </div>  
+      <h2>Assessing for <span id="awesome">Awesome</span></h2>
 </section>
 
 <section id="two">
@@ -640,12 +600,16 @@ jQuery('html').keyup(function(e){
      red solid;
   }
 
-  #smb {
+  #smb, #smb-awesome {
     width: 218px;
     margin-top: 10%;
   }
 
-  #smb:hover {
+  #smb-awesome {
+    display: block;
+  }
+
+  #smb:hover, #smb-awesome:hover {
     cursor: grab;
   }
 
@@ -1497,6 +1461,12 @@ Homepage Hero
   jQuery('.togglelight').click(function(){
     jQuery("section#five").toggleClass('lightsoff');
     jQuery("section#five svg").toggleClass('text-white');
+  });
+
+  /* show/hide overlay & toggle style of button */
+  jQuery('#awesome').click(function(){
+    jQuery("#smb").toggle();
+    jQuery("#smb-awesome").toggle('');
   });
 
 </script>
